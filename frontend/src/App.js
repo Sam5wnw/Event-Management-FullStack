@@ -9,6 +9,18 @@ import NavbarComp from './components/navbar';
 import Register from './pages/register'
 import UpcomingEvents from './pages/upcomingEvents';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// src/App.js
+import React from 'react';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Welcome to My Fullstack App</h1>
+    </div>
+  );
+}
+
+export default App;
 
 <link
   rel="stylesheet"
